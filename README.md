@@ -12,10 +12,11 @@ Python Scripts for solving daily life problems in windows (recommended)
 
 * **Read** the ***readme.txt*** given inside the folder and try it out ! ***:-)***
 
-### Convert Markdown to PDF Offline
+### Convert Markdown to PDF Offline in Bulk
 
 * **Pre-requisite** Device must have NPM (node) and **Installed** ***md-to-pdf***
 * To install ***md-to-pdf*** using NPM use **npm i md-to-pdf**.
+* The script is used to do multiple conversions using one click. For a single conversion you can always use console directly to do the task using ***"md-to-pdf <Filename>"***
 * The script also uses modules named ***glob*** and ***subprocess*** which come by default in python now. If they are not available then just do a **pip install** for them as well.
 
 ### Create Fake BigData
