@@ -27,4 +27,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 
 ### Search and List Remaining Files
 
-* I created this scripts to 
+* I created this scripts to find the missing files from a site which I forgot to download due to lack of focus while scrolling.
+* I created a list of files I have downloaded and a list of all the files there in the site after some pre-processing.
+* Then it was a cake walk to check if the main list file's name was in the downloaded file's list.
+* The files not present were printed as a list in the python console.
