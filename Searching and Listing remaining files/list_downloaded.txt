@@ -1,0 +1,222 @@
+Add custom domain name to Azure Active Directory
+Align requirements with cloud types and service models in Azure
+Allow users to reset their password with Azure Active Directory self-service password reset
+Analyze images with Azure AI Vision
+Analyze images
+Analyze receipts with Azure AI Document Intelligence
+Analyze text with Azure AI Language
+Analyze video
+Analyze your Azure infrastructure by using Azure Monitor logs
+Automate Azure tasks using scripts with PowerShell
+Automate development tasks by using GitHub Actions
+Automate DevOps processes by using GitHub Apps
+Automate GitHub by using GitHub Script
+Build a bot with Azure AI Language and Azure AI Bot Service
+Build a cloud governance strategy on Azure
+Build a question answering solution
+Build and deploy applications to Azure by using GitHub Actions
+Build and run a web application with the MEAN stack on an Azure Linux virtual machine
+Build continuous integration (CI) workflows by using GitHub Actions
+Build serverless apps with Go
+Capture Web Application Logs with App Service Diagnostics Logging
+Chain Azure Functions together using input and output bindings
+Choose a data storage approach in Azure
+Choose a messaging model in Azure to loosely connect your services
+Choose the best AI service for your needs
+Choose the best Azure IoT service for your application
+Choose the best Azure serverless technology for your business scenario
+Choose the best Azure service to automate your business processes
+Choose the best monitoring service for visibility, insight, and outage mitigation
+Choose the best tools for managing and configuring your Azure environment
+Choose the best tools to help organizations build better solutions
+Choose the right Azure services by examining SLAs and service lifecycle
+Choose the right disk storage for your virtual machine workload
+Classify images with Azure AI Custom Vision
+Classify images
+Clean, transform, and load data in Power BI
+Communicate between applications with Azure Queue storage
+Communicate effectively on GitHub using Markdown
+Configure and manage secrets in Azure Key Vault
+Configure Azure Active Directory
+Configure Azure alerts
+Configure Azure App Service plans
+Configure Azure App Service
+Configure Azure Application Gateway
+Configure Azure Blob Storage
+Configure Azure Container Instances
+Configure Azure DNS
+Configure Azure ExpressRoute and Azure Virtual WAN
+Configure Azure Files and Azure File Sync
+Configure Azure Firewall
+Configure Azure Kubernetes Service
+Configure Azure Load Balancer
+Configure Azure Monitor
+Configure Azure Policy
+Configure Azure resources with tools
+Configure Azure Storage security
+Configure Azure Storage with tools
+Configure Azure Virtual Network peering
+Configure Azure VPN Gateway
+Configure file and folder backups
+Configure Log Analytics
+Configure network routing and endpoints
+Configure network security groups
+Configure Network Watcher
+Configure resources with Azure Resource Manager templates
+Configure role-based access control
+Configure security policies to manage data
+Configure storage accounts
+Configure subscriptions
+Configure the network for your virtual machines
+Configure user and group accounts
+Configure virtual machine availability
+Configure virtual machine backups
+Configure virtual machine extensions
+Configure virtual machines
+Configure virtual networks
+Connect an app to Azure Storage
+Contribute to an open-source project on GitHub
+Control access to Azure Storage with shared access signatures
+Control access to your APIs with Azure API Management
+Control and organize Azure resources with Azure Resource Manager
+Control Azure services with the CLI
+Create a Bot with the Bot Framework Composer
+Create a bot with the Bot Framework SDK
+Create a classification model with Azure Machine Learning designer
+Create a clustering model with Azure Machine Learning designer
+Create a custom skill for Azure Cognitive Search
+Create a data-driven story with Power BI reports
+Create a knowledge store with Azure Cognitive Search
+Create a language model with Azure AI Language
+Create a Language Understanding app
+Create a Linux virtual machine in Azure
+Create a long-running serverless workflow with Durable Functions
+Create a regression model with Azure Machine Learning designer
+Create a Windows virtual machine in Azure
+Create an Azure account
+Create an Azure Cognitive Search solution
+Create an Azure Storage account
+Create an open-source program by using GitHub best practices
+Create and consume Azure AI Services
+Create and host web sites by using GitHub Pages
+Create and manage workspaces in Power BI
+Create Azure users and groups in Azure Active Directory
+Create custom roles for Azure resources with role-based access control (RBAC)
+Create dashboards in Power BI
+Create paginated reports
+Create security baselines
+Create serverless logic with Azure Functions
+Create speech-enabled apps with Azure AI services
+Deploy and run a containerized web app with Azure App Service
+Deploy Azure AI services in containers
+Deploy Azure infrastructure by using JSON ARM templates
+Describe core Azure architectural components
+Design a data model in Power BI
+Design an IP addressing schema for your Azure deployment
+Design your migration to Azure
+Detect and analyze faces with Azure AI Face
+Detect objects in images with Azure AI Custom Vision
+Detect objects in images
+Detect, analyze, and recognize faces
+Develop, test, and deploy an Azure Function with Visual Studio
+Develop, test, and publish Azure Functions by using Azure Functions Core Tools
+Discover data analysis
+Discuss Azure fundamental concepts
+Distribute your services across Azure virtual networks and integrate them by using virtual network peering
+Enable automatic updates in a web application using Azure Functions and SignalR Service
+Enable reliable messaging for Big Data applications using Azure Event Hubs
+Encrypt network traffic end to end with Azure Application Gateway
+Examine privacy, compliance, and data protection standards on Azure
+Execute an Azure Function with triggers
+Explore Azure compute services
+Explore Azure database and analytics services
+Explore Azure networking services
+Explore Azure Storage services
+Expose multiple Azure Function apps as a consistent API by using Azure API Management
+Extract data from forms with Azure Document Intelligence
+Extract insights from text with the Azure AI Language service
+Get data in Power BI
+Get started building with Power BI
+Get started with AI on Azure
+Host a web application with Azure App Service
+Host your domain on Azure DNS
+Identify security threats with Microsoft Defender for Cloud
+Implement message-based communication workflows with Azure Service Bus
+Implement row-level security
+Improve application scalability and resiliency by using Azure Load Balancer
+Improve incident response with alerting on Azure
+Introduction to analyzing costs and creating budgets with Microsoft Cost Management
+Introduction to Azure fundamentals
+Introduction to Azure Kubernetes Service
+Introduction to Azure virtual machines
+Introduction to creating measures using DAX in Power BI
+Introduction to GitHub
+Introduction to Linux on Azure
+Introduction to open-source database migration on Azure
+Introduction to SQL Server on Linux
+Leverage GitHub Actions to publish to GitHub Packages
+Maintain a secure repository by using GitHub best practices
+Manage access to an Azure subscription by using Azure role-based access control (Azure RBAC)
+Manage an InnerSource program by using GitHub
+Manage and control traffic flow in your Azure deployment with routes
+Manage datasets in Power BI
+Manage device identity with Azure AD join and Enterprise State Roaming
+Manage repository changes by using pull requests on GitHub
+Manage secrets in your server apps with Azure Key Vault
+Manage software delivery by using a release based workflow on GitHub
+Manage users and groups in Azure Active Directory
+Manage virtual machines with the Azure CLI
+Microsoft Azure Well-Architected Framework - Security
+Migrate on-premises MySQL databases to Azure Database for MySQL
+Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL
+Migrate your repository by using GitHub best practices
+Monitor and troubleshoot your end-to-end Azure network infrastructure by using network monitoring tools
+Monitor Azure AI Services
+Monitor GitHub events by using a webhook with Azure Functions
+Monitor performance of virtual machines by using Azure Monitor VM Insights
+Move Azure resources to another resource group
+Optimize a model for performance in Power BI
+Optimize your web applications by caching read-only data with Redis
+Perform analytics in Power BI
+Plan and manage your Azure costs
+Prepare to develop AI solutions on Azure
+Prepare your development environment for Azure development
+Protect against security threats on Azure
+Protect your identities with Azure AD Identity Protection
+Protect your servers and VMs from brute-force and malware attacks with Microsoft Defender for Cloud
+Protect your virtual machine settings with Azure Automation State Configuration
+Publish a web app to Azure with Visual Studio
+Publish and use a Language Understanding app
+React to state changes in your Azure services by using Event Grid
+Read Text in Images and Documents with the Azure AI Vision Service
+Read text with Azure AI Computer Vision
+Recognize and synthesize speech with Azure AI Speech
+Resolve security threats with Microsoft Defender for Cloud
+Run Docker containers with Azure Container Instances
+Scale an App Service web app to efficiently meet demand with App Service scale up and scale out
+Search and organize repository history by using GitHub
+Secure a .NET web app with the ASP.NET Core Identity framework
+Secure access to your applications by using Azure identity services
+Secure and isolate access to Azure resources by using network security groups and service endpoints
+Secure Azure Active Directory users with Multi-Factor Authentication
+Secure Azure AI Services
+Secure network connectivity on Azure
+Secure your Azure resources with Azure role-based access control (Azure RBAC)
+Secure your Azure SQL Database
+Secure your Azure Storage account
+Secure your Azure virtual machine disks
+Settle competing commits by using merge conflict resolution on GitHub
+Stage a web app deployment for testing and rollback by using App Service deployment slots
+Store and share files in your app with Azure Files
+Store application data with Azure Blob storage
+Top 5 security items to consider before pushing to production
+Translate speech with the Azure AI Speech service
+Translate text and speech with Azure AI services
+Translate text with the Azure AI Translator service
+Upload your project by using GitHub best practices
+Upload, download, and manage data with Azure Storage Explorer
+Use Automated Machine Learning in Azure Machine Learning
+Use Azure Resource Manager
+Use Language Understanding with Speech
+Work with AI visuals in Power BI
+Work with Power BI visuals

@@ -1,0 +1,1331 @@
+BADGE
+
+Contribute to an open-source project on GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Maintain a secure repository by using GitHub best practices
+Completed on 
+12/11/2021
+
+BADGE
+
+Migrate your repository by using GitHub best practices
+Completed on 
+12/11/2021
+
+BADGE
+
+Upload your project by using GitHub best practices
+Completed on 
+12/11/2021
+
+BADGE
+
+Create an open-source program by using GitHub best practices
+Completed on 
+12/11/2021
+
+BADGE
+
+Manage an InnerSource program by using GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Search and organize repository history by using GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Automate DevOps processes by using GitHub Apps
+Completed on 
+12/11/2021
+
+BADGE
+
+Settle competing commits by using merge conflict resolution on GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Manage repository changes by using pull requests on GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Manage software delivery by using a release based workflow on GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Leverage GitHub Actions to publish to GitHub Packages
+Completed on 
+12/11/2021
+
+BADGE
+
+Automate GitHub by using GitHub Script
+Completed on 
+12/11/2021
+
+BADGE
+
+Build and deploy applications to Azure by using GitHub Actions
+Completed on 
+12/11/2021
+
+BADGE
+
+Build continuous integration (CI) workflows by using GitHub Actions
+Completed on 
+12/11/2021
+
+BADGE
+
+Automate development tasks by using GitHub Actions
+Completed on 
+12/11/2021
+
+BADGE
+
+Create and host web sites by using GitHub Pages
+Completed on 
+12/11/2021
+
+BADGE
+
+Communicate effectively on GitHub using Markdown
+Completed on 
+12/11/2021
+
+BADGE
+
+Introduction to GitHub
+Completed on 
+12/11/2021
+
+BADGE
+
+Detect, analyze, and recognize faces
+Completed on 
+12/11/2021
+
+BADGE
+
+Detect objects in images
+Completed on 
+12/11/2021
+
+BADGE
+
+Classify images
+Completed on 
+12/11/2021
+
+BADGE
+
+Analyze video
+Completed on 
+12/11/2021
+
+BADGE
+
+Analyze images
+Completed on 
+12/11/2021
+
+BADGE
+
+Create a Bot with the Bot Framework Composer
+Completed on 
+12/11/2021
+
+BADGE
+
+Create a bot with the Bot Framework SDK
+Completed on 
+12/11/2021
+
+BADGE
+
+Build a question answering solution
+Completed on 
+12/11/2021
+
+BADGE
+
+Use Language Understanding with Speech
+Completed on 
+12/11/2021
+
+BADGE
+
+Publish and use a Language Understanding app
+Completed on 
+12/11/2021
+
+BADGE
+
+Create a Language Understanding app
+Completed on 
+12/11/2021
+
+BADGE
+
+Translate speech with the Azure AI Speech service
+Completed on 
+12/11/2021
+
+BADGE
+
+Create speech-enabled apps with Azure AI services
+Completed on 
+12/11/2021
+
+BADGE
+
+Extract data from forms with Azure Document Intelligence
+Completed on 
+12/11/2021
+
+BADGE
+
+Read Text in Images and Documents with the Azure AI Vision Service
+Completed on 
+12/11/2021
+
+BADGE
+
+Create a knowledge store with Azure Cognitive Search
+Completed on 
+12/11/2021
+
+BADGE
+
+Create a custom skill for Azure Cognitive Search
+Completed on 
+12/11/2021
+
+BADGE
+
+Create an Azure Cognitive Search solution
+Completed on 
+12/11/2021
+
+BADGE
+
+Translate text with the Azure AI Translator service
+Completed on 
+12/11/2021
+
+BADGE
+
+Extract insights from text with the Azure AI Language service
+Completed on 
+12/11/2021
+
+BADGE
+
+Deploy Azure AI services in containers
+Completed on 
+12/11/2021
+
+BADGE
+
+Monitor Azure AI Services
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure Azure AI Services
+Completed on 
+11/11/2021
+
+BADGE
+
+Create and consume Azure AI Services
+Completed on 
+11/11/2021
+
+BADGE
+
+Prepare to develop AI solutions on Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Implement row-level security
+Completed on 
+11/11/2021
+
+BADGE
+
+Manage datasets in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Create and manage workspaces in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Work with AI visuals in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Perform analytics in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Create paginated reports
+Completed on 
+11/11/2021
+
+BADGE
+
+Create dashboards in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Create a data-driven story with Power BI reports
+Completed on 
+11/11/2021
+
+BADGE
+
+Work with Power BI visuals
+Completed on 
+11/11/2021
+
+BADGE
+
+Optimize a model for performance in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Introduction to creating measures using DAX in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Design a data model in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Clean, transform, and load data in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Get data in Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Get started building with Power BI
+Completed on 
+11/11/2021
+
+BADGE
+
+Discover data analysis
+Completed on 
+11/11/2021
+
+BADGE
+
+Build a bot with Azure AI Language and Azure AI Bot Service
+Completed on 
+11/11/2021
+
+BADGE
+
+Create a language model with Azure AI Language
+Completed on 
+11/11/2021
+
+BADGE
+
+Translate text and speech with Azure AI services
+Completed on 
+11/11/2021
+
+BADGE
+
+Recognize and synthesize speech with Azure AI Speech
+Completed on 
+11/11/2021
+
+BADGE
+
+Analyze text with Azure AI Language
+Completed on 
+11/11/2021
+
+BADGE
+
+Analyze receipts with Azure AI Document Intelligence
+Completed on 
+11/11/2021
+
+BADGE
+
+Read text with Azure AI Computer Vision
+Completed on 
+11/11/2021
+
+BADGE
+
+Detect and analyze faces with Azure AI Face
+Completed on 
+11/11/2021
+
+BADGE
+
+Detect objects in images with Azure AI Custom Vision
+Completed on 
+11/11/2021
+
+BADGE
+
+Classify images with Azure AI Custom Vision
+Completed on 
+11/11/2021
+
+BADGE
+
+Analyze images with Azure AI Vision
+Completed on 
+11/11/2021
+
+BADGE
+
+Create a clustering model with Azure Machine Learning designer
+Completed on 
+11/11/2021
+
+BADGE
+
+Create a classification model with Azure Machine Learning designer
+Completed on 
+11/11/2021
+
+BADGE
+
+Create a regression model with Azure Machine Learning designer
+Completed on 
+11/11/2021
+
+BADGE
+
+Use Automated Machine Learning in Azure Machine Learning
+Completed on 
+11/11/2021
+
+BADGE
+
+Get started with AI on Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Capture Web Application Logs with App Service Diagnostics Logging
+Completed on 
+11/11/2021
+
+BADGE
+
+Resolve security threats with Microsoft Defender for Cloud
+Completed on 
+11/11/2021
+
+BADGE
+
+Identify security threats with Microsoft Defender for Cloud
+Completed on 
+11/11/2021
+
+BADGE
+
+Protect your identities with Azure AD Identity Protection
+Completed on 
+11/11/2021
+
+BADGE
+
+Add custom domain name to Azure Active Directory
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure Azure Active Directory users with Multi-Factor Authentication
+Completed on 
+11/11/2021
+
+BADGE
+
+Manage users and groups in Azure Active Directory
+Completed on 
+11/11/2021
+
+BADGE
+
+Create an Azure account
+Completed on 
+11/11/2021
+
+BADGE
+
+Protect your servers and VMs from brute-force and malware attacks with Microsoft Defender for Cloud
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure your Azure virtual machine disks
+Completed on 
+11/11/2021
+
+BADGE
+
+Monitor and troubleshoot your end-to-end Azure network infrastructure by using network monitoring tools
+Completed on 
+11/11/2021
+
+BADGE
+
+Encrypt network traffic end to end with Azure Application Gateway
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure and isolate access to Azure resources by using network security groups and service endpoints
+Completed on 
+11/11/2021
+
+BADGE
+
+Configure the network for your virtual machines
+Completed on 
+11/11/2021
+
+BADGE
+
+Introduction to analyzing costs and creating budgets with Microsoft Cost Management
+Completed on 
+11/11/2021
+
+BADGE
+
+Create custom roles for Azure resources with role-based access control (RBAC)
+Completed on 
+11/11/2021
+
+BADGE
+
+Manage access to an Azure subscription by using Azure role-based access control (Azure RBAC)
+Completed on 
+11/11/2021
+
+BADGE
+
+Control access to your APIs with Azure API Management
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure a .NET web app with the ASP.NET Core Identity framework
+Completed on 
+11/11/2021
+
+BADGE
+
+Manage secrets in your server apps with Azure Key Vault
+Completed on 
+11/11/2021
+
+BADGE
+
+Create security baselines
+Completed on 
+11/11/2021
+
+BADGE
+
+Microsoft Azure Well-Architected Framework - Security
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure your Azure SQL Database
+Completed on 
+11/11/2021
+
+BADGE
+
+Configure and manage secrets in Azure Key Vault
+Completed on 
+11/11/2021
+
+BADGE
+
+Configure security policies to manage data
+Completed on 
+11/11/2021
+
+BADGE
+
+Top 5 security items to consider before pushing to production
+Completed on 
+11/11/2021
+
+BADGE
+
+Deploy and run a containerized web app with Azure App Service
+Completed on 
+11/11/2021
+
+BADGE
+
+Scale an App Service web app to efficiently meet demand with App Service scale up and scale out
+Completed on 
+11/11/2021
+
+BADGE
+
+Stage a web app deployment for testing and rollback by using App Service deployment slots
+Completed on 
+11/11/2021
+
+BADGE
+
+Publish a web app to Azure with Visual Studio
+Completed on 
+11/11/2021
+
+BADGE
+
+Prepare your development environment for Azure development
+Completed on 
+11/11/2021
+
+BADGE
+
+Manage device identity with Azure AD join and Enterprise State Roaming
+Completed on 
+11/11/2021
+
+BADGE
+
+Move Azure resources to another resource group
+Completed on 
+11/11/2021
+
+BADGE
+
+Control and organize Azure resources with Azure Resource Manager
+Completed on 
+11/11/2021
+
+BADGE
+
+Align requirements with cloud types and service models in Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL
+Completed on 
+11/11/2021
+
+BADGE
+
+Migrate on-premises MySQL databases to Azure Database for MySQL
+Completed on 
+11/11/2021
+
+BADGE
+
+Introduction to open-source database migration on Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Introduction to SQL Server on Linux
+Completed on 
+11/11/2021
+
+BADGE
+
+Design your migration to Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Introduction to Linux on Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Run Docker containers with Azure Container Instances
+Completed on 
+11/11/2021
+
+BADGE
+
+Introduction to Azure Kubernetes Service
+Completed on 
+11/11/2021
+
+BADGE
+
+Optimize your web applications by caching read-only data with Redis
+Completed on 
+11/11/2021
+
+BADGE
+
+Build and run a web application with the MEAN stack on an Azure Linux virtual machine
+Completed on 
+11/11/2021
+
+BADGE
+
+Create a Linux virtual machine in Azure
+Completed on 
+11/11/2021
+
+BADGE
+
+Store application data with Azure Blob storage
+Completed on 
+11/11/2021
+
+BADGE
+
+Secure your Azure Storage account
+Completed on 
+11/11/2021
+
+BADGE
+
+Connect an app to Azure Storage
+Completed on 
+11/11/2021
+
+BADGE
+
+React to state changes in your Azure services by using Event Grid
+Completed on 
+11/11/2021
+
+BADGE
+
+Enable reliable messaging for Big Data applications using Azure Event Hubs
+Completed on 
+11/11/2021
+
+BADGE
+
+Communicate between applications with Azure Queue storage
+Completed on 
+11/11/2021
+
+BADGE
+
+Implement message-based communication workflows with Azure Service Bus
+Completed on 
+11/11/2021
+
+BADGE
+
+Choose a messaging model in Azure to loosely connect your services
+Completed on 
+11/11/2021
+
+BADGE
+
+Build serverless apps with Go
+Completed on 
+11/11/2021
+
+BADGE
+
+Expose multiple Azure Function apps as a consistent API by using Azure API Management
+Completed on 
+08/11/2021
+
+BADGE
+
+Enable automatic updates in a web application using Azure Functions and SignalR Service
+Completed on 
+08/11/2021
+
+BADGE
+
+Monitor GitHub events by using a webhook with Azure Functions
+Completed on 
+08/11/2021
+
+BADGE
+
+Develop, test, and deploy an Azure Function with Visual Studio
+Completed on 
+07/11/2021
+
+BADGE
+
+Develop, test, and publish Azure Functions by using Azure Functions Core Tools
+Completed on 
+07/11/2021
+
+BADGE
+
+Create a long-running serverless workflow with Durable Functions
+Completed on 
+07/11/2021
+
+BADGE
+
+Chain Azure Functions together using input and output bindings
+Completed on 
+07/11/2021
+
+BADGE
+
+Execute an Azure Function with triggers
+Completed on 
+07/11/2021
+
+BADGE
+
+Create serverless logic with Azure Functions
+Completed on 
+07/11/2021
+
+BADGE
+
+Choose the best Azure service to automate your business processes
+Completed on 
+07/11/2021
+
+BADGE
+
+Monitor performance of virtual machines by using Azure Monitor VM Insights
+Completed on 
+07/11/2021
+
+BADGE
+
+Analyze your Azure infrastructure by using Azure Monitor logs
+Completed on 
+07/11/2021
+
+BADGE
+
+Improve incident response with alerting on Azure
+Completed on 
+07/11/2021
+
+BADGE
+
+Configure Network Watcher
+Completed on 
+07/11/2021
+
+BADGE
+
+Configure Log Analytics
+Completed on 
+07/11/2021
+
+BADGE
+
+Configure Azure alerts
+Completed on 
+07/11/2021
+
+BADGE
+
+Configure Azure Monitor
+Completed on 
+07/11/2021
+
+BADGE
+
+Configure virtual machine backups
+Completed on 
+07/11/2021
+
+BADGE
+
+Configure file and folder backups
+Completed on 
+07/11/2021
+
+BADGE
+
+Improve application scalability and resiliency by using Azure Load Balancer
+Completed on 
+06/11/2021
+
+BADGE
+
+Manage and control traffic flow in your Azure deployment with routes
+Completed on 
+06/11/2021
+
+BADGE
+
+Host your domain on Azure DNS
+Completed on 
+06/11/2021
+
+BADGE
+
+Distribute your services across Azure virtual networks and integrate them by using virtual network peering
+Completed on 
+06/11/2021
+
+BADGE
+
+Design an IP addressing schema for your Azure deployment
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure Application Gateway
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure Load Balancer
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure network routing and endpoints
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure ExpressRoute and Azure Virtual WAN
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure VPN Gateway
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure Virtual Network peering
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure DNS
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure Firewall
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure network security groups
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure virtual networks
+Completed on 
+06/11/2021
+
+BADGE
+
+Protect your virtual machine settings with Azure Automation State Configuration
+Completed on 
+06/11/2021
+
+BADGE
+
+Host a web application with Azure App Service
+Completed on 
+06/11/2021
+
+BADGE
+
+Create a Windows virtual machine in Azure
+Completed on 
+06/11/2021
+
+BADGE
+
+Manage virtual machines with the Azure CLI
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure Kubernetes Service
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure Container Instances
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure App Service
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure Azure App Service plans
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure virtual machine extensions
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure virtual machine availability
+Completed on 
+06/11/2021
+
+BADGE
+
+Configure virtual machines
+Completed on 
+05/11/2021
+
+BADGE
+
+Upload, download, and manage data with Azure Storage Explorer
+Completed on 
+05/11/2021
+
+BADGE
+
+Store and share files in your app with Azure Files
+Completed on 
+05/11/2021
+
+BADGE
+
+Control access to Azure Storage with shared access signatures
+Completed on 
+05/11/2021
+
+BADGE
+
+Choose a data storage approach in Azure
+Completed on 
+05/11/2021
+
+BADGE
+
+Introduction to Azure virtual machines
+Completed on 
+05/11/2021
+
+BADGE
+
+Choose the right disk storage for your virtual machine workload
+Completed on 
+05/11/2021
+
+BADGE
+
+Create an Azure Storage account
+Completed on 
+05/11/2021
+
+BADGE
+
+Configure Azure Storage with tools
+Completed on 
+05/11/2021
+
+BADGE
+
+Configure Azure Files and Azure File Sync
+Completed on 
+05/11/2021
+
+BADGE
+
+Configure Azure Storage security
+Completed on 
+02/11/2021
+
+BADGE
+
+Configure Azure Blob Storage
+Completed on 
+02/11/2021
+
+BADGE
+
+Configure storage accounts
+Completed on 
+02/11/2021
+
+BADGE
+
+Allow users to reset their password with Azure Active Directory self-service password reset
+Completed on 
+28/10/2021
+
+BADGE
+
+Secure your Azure resources with Azure role-based access control (Azure RBAC)
+Completed on 
+18/10/2021
+
+BADGE
+
+Create Azure users and groups in Azure Active Directory
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure role-based access control
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure Azure Policy
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure subscriptions
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure user and group accounts
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure Azure Active Directory
+Completed on 
+17/10/2021
+
+BADGE
+
+Deploy Azure infrastructure by using JSON ARM templates
+Completed on 
+17/10/2021
+
+BADGE
+
+Control Azure services with the CLI
+Completed on 
+17/10/2021
+
+BADGE
+
+Automate Azure tasks using scripts with PowerShell
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure resources with Azure Resource Manager templates
+Completed on 
+17/10/2021
+
+BADGE
+
+Use Azure Resource Manager
+Completed on 
+17/10/2021
+
+BADGE
+
+Configure Azure resources with tools
+Completed on 
+17/10/2021
+
+BADGE
+
+Choose the right Azure services by examining SLAs and service lifecycle
+Completed on 
+17/10/2021
+
+BADGE
+
+Plan and manage your Azure costs
+Completed on 
+16/10/2021
+
+BADGE
+
+Examine privacy, compliance, and data protection standards on Azure
+Completed on 
+16/10/2021
+
+BADGE
+
+Build a cloud governance strategy on Azure
+Completed on 
+16/10/2021
+
+BADGE
+
+Secure access to your applications by using Azure identity services
+Completed on 
+16/10/2021
+
+BADGE
+
+Secure network connectivity on Azure
+Completed on 
+16/10/2021
+
+BADGE
+
+Protect against security threats on Azure
+Completed on 
+15/10/2021
+
+BADGE
+
+Choose the best monitoring service for visibility, insight, and outage mitigation
+Completed on 
+15/10/2021
+
+BADGE
+
+Choose the best tools for managing and configuring your Azure environment
+Completed on 
+15/10/2021
+
+BADGE
+
+Choose the best tools to help organizations build better solutions
+Completed on 
+15/10/2021
+
+BADGE
+
+Choose the best Azure serverless technology for your business scenario
+Completed on 
+15/10/2021
+
+BADGE
+
+Choose the best AI service for your needs
+Completed on 
+15/10/2021
+
+BADGE
+
+Choose the best Azure IoT service for your application
+Completed on 
+14/10/2021
+
+BADGE
+
+Explore Azure database and analytics services
+Completed on 
+14/10/2021
+
+BADGE
+
+Explore Azure Storage services
+Completed on 
+14/10/2021
+
+BADGE
+
+Explore Azure networking services
+Completed on 
+13/10/2021
+
+BADGE
+
+Explore Azure compute services
+Completed on 
+13/10/2021
+
+BADGE
+
+Describe core Azure architectural components
+Completed on 
+13/10/2021
+
+BADGE
+
+Discuss Azure fundamental concepts
+Completed on 
+12/10/2021
+
+BADGE
+
+Introduction to Azure fundamentals
+Completed on 
+07/10/2021
