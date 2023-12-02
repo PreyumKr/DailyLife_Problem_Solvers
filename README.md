@@ -24,3 +24,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 * **Read** the ***code comments*** and make ***changes*** which meets your requirements.
 * The No Limit code runs all parellel csv generators together which can use the entire CPU.
 * If You want to make a Single csv use the single csv. (PS: It uses single process so its going to take forever!)
+
+### Search and List Remaining Files
+
+* I created this scripts to 
