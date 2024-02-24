@@ -25,6 +25,13 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The No Limit code runs all parellel csv generators together which can use the entire CPU.
 * If You want to make a Single csv use the single csv. (PS: It uses single process so its going to take forever!)
 
+### Multiple File Rename
+
+* **Read** the ***code comments*** and make ***changes*** which meets your requirements.
+* The script uses ***os*** module which come by default in python now. If it is somehow not available then just do a **pip install** for it as well.
+* The script is used to rename multiple files or folders inside a folder with a common name or a number appended to it.
+* The script can also be used to remove a common name from all the files or folders inside a folder.
+
 ### Search and List Remaining Files
 
 * I created this scripts to find the missing files from a site which I forgot to download due to lack of focus while scrolling.
