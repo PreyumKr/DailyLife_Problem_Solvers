@@ -8,6 +8,15 @@ Python Scripts for solving daily life problems in windows (recommended)
 * **Read** the ***code comments*** and make ***changes*** which meets your requirements.
 * You can choose between ***copy*** and ***rename*** function according to what you want to happen to your original file with no extension.
 
+### Clean Files from Sub-Directories of a Folder
+
+* **Read** the ***code comments*** and make ***changes*** which meets your requirements.
+* The scripts uses ***os*** and ***shutil*** module which come by default in python now. If they are somehow not available then just do a **pip install** for them as well.
+* The scripts are used to clean all the sub-directories inside a folder either by removing everything or by removing only the files in the sub-directories or by removing the files in the entire sub-tree of the folder.
+* The **Clean_Subdirectories_Complete.py** script is used to remove everything inside the sub-directories.
+* The **Clean_Subdirectories_Files.py** script is used to remove only the files inside the sub-directories.
+* The **Clean_SubTree_Files.py** script is used to remove the files in the entire sub-tree of the folder.
+
 ### Colouring Book Sceapeops
 
 * **Read** the ***readme.txt*** given inside the folder and try it out ! ***:-)***
