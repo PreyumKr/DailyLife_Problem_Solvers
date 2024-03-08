@@ -48,3 +48,18 @@ Python Scripts for solving daily life problems in windows (recommended)
 * I created a list of files I have downloaded and a list of all the files there in the site after some pre-processing.
 * Then it was a cake walk to check if the main list file's name was in the downloaded file's list.
 * The files not present were printed as a list in the python console.
+
+### Video Subtitle Generator
+
+* The required packages for the script are **openai-whisper** and **moviepy**. 
+* The optional package for the script is **tqdm**, which is used to show the progress of the video processing. It can be disabled with keeping verbose false and commenting the tqdm import line and function call. ***Just install it if commentings parts of the code is not your thing***.
+* I have added the **requirements.txt** file for the packages to be installed using pip. Just do a **pip install -r requirements.txt** to install all the required and optional packages.
+* The **Video_Sub_Gen_Single.py** script is used to generate the subtitles for a single video in the current directory. Just add the video file in the current directory, add its name in the code's **filename** and run the script.
+* The **Video_Sub_Gen_Multi.py** script is used to generate the subtitles for multiple videos in the current directory. Just add the video files in the current directory and run the script.
+* The **Video_Sub_Gen_Tree.py** script is used to generate the subtitles for multiple videos in the current as well as the sub-directories. Just add the script in the root folder and run the script.
+* The script can run on **CPU** as well as **GPU**. The ***GPU is recommended*** as it is ***faster***.
+* The **Openai-Whisper** has 4 models (i.e, **base**, **small**, **medium** and **large**). The **base** and **small** models are of less size and produce results faster but you can always use the medium and large models for better results if you have large and faster GPU's.
+* I uploaded all the models but then removed the ***small***, ***medium*** and ***large*** models as they add extra overhead to the repository. When you run the script for the first time it will download the required model from the openai server and store it in models folder.
+* The ***small*** model has size ***461MB***, ***medium*** model has size ***1.42GB*** and ***large*** model has size ***2.87GB***. The **base model** is already present in the **models** folder.
+* The subtitle generation is done locally and the video is not uploaded to any server as per my understanding.
+* **NOTE:** ***If you face any issues with the path of videos while running the tree script or the other two scripts then try moving the working folder closer to the root directory of the drive. It might solve the issue.***
