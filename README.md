@@ -49,7 +49,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 * Then it was a cake walk to check if the main list file's name was in the downloaded file's list.
 * The files not present were printed as a list in the python console.
 
-### Video Subtitle Generator
+### Video Subtitle Generator (English)
 
 * The required packages for the script are **openai-whisper** and **moviepy**. 
 * The optional package for the script is **tqdm**, which is used to show the progress of the video processing. It can be disabled with keeping verbose false and commenting the tqdm import line and function call. ***Just install it if commentings parts of the code is not your thing***.
