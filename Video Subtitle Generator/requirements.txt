@@ -1,0 +1,5 @@
+tqdm
+torch
+moviepy
+datetime
+openai-whisper
