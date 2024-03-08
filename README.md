@@ -59,7 +59,9 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The **Video_Sub_Gen_Tree.py** script is used to generate the subtitles for multiple videos in the current as well as the sub-directories. Just add the script in the root folder and run the script.
 * The script can run on **CPU** as well as **GPU**. The ***GPU is recommended*** as it is ***faster***.
 * The **Openai-Whisper** has 4 models (i.e, **base**, **small**, **medium** and **large**). The **base** and **small** models are of less size and produce results faster but you can always use the medium and large models for better results if you have large and faster GPU's.
-* I uploaded all the models but then removed them as they were larger than the size allowed by github repositories. When you run the script for the first time it will download the required model from the openai server and store it in a folder named models.
+* When you run the script for the first time it will download the required model from the openai server and store it in a folder named models.
 * The ***base*** model has size ***138MB***, ***small*** model has size ***461MB***, ***medium*** model has size ***1.42GB*** and ***large*** model has size ***2.87GB***. The **base model** is already present in the **models** folder.
+* In any case, I have added the **base** model in the **models** folder for you to use it directly without using gb's of your data for the bigger models.
+* The **base** model is kept in parts *lesser than 25MB* so that it can be uploaded to github, you need to extract it using ***7zip*** or ***winrar*** to use it. Extract using the **extract here** option.
 * The subtitle generation is done locally and the video is not uploaded to any server as per my understanding.
 * **NOTE:** ***If you face any issues with the path of videos while running the tree script or the other two scripts then try moving the working folder closer to the root directory of the drive. It might solve the issue.***
