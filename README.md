@@ -53,6 +53,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 
 * The required packages for the script are **openai-whisper** and **moviepy**. 
 * The optional package for the script is **tqdm**, which is used to show the progress of the video processing. It can be disabled with keeping verbose false and commenting the tqdm import line and function call. ***Just install it if commentings parts of the code is not your thing***.
+* Added an error handling code in case any of the video is not processed properly. The error is logged in a file named **SubtitleGenError.log** from where the script is called.
 * I have added the **requirements.txt** file for the packages to be installed using pip. Just do a **pip install -r requirements.txt** to install all the required and optional packages.
 * The **Video_Sub_Gen_Single.py** script is used to generate the subtitles for a single video in the current directory. Just add the video file in the current directory, add its name in the code's **filename** and run the script.
 * The **Video_Sub_Gen_Multi.py** script is used to generate the subtitles for multiple videos in the current directory. Just add the video files in the current directory and run the script.
