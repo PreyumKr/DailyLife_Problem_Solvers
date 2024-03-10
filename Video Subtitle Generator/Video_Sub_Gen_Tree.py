@@ -1,9 +1,13 @@
 import os
 import torch
 import whisper
+import logging
 from tqdm import tqdm
 from datetime import timedelta
 from moviepy.editor import VideoFileClip
+
+# Set up logging
+logging.basicConfig(filename='SubtitleGenError.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -64,6 +68,14 @@ for dirpath, dirnames, filenames in os.walk("./"):
     for file in filenames:
         if file.endswith(".mp4"):
             file_name = os.path.join(dirpath, file)
+            # Add script to handle failure of reading video file and write to log file
+            try:
+                video = VideoFileClip(file_name)
+            except Exception as e:
+                logging.error(f"Error reading video file: {file_name}: {str(e)}")
+                pbar.update(1)
+                continue
+
             video = VideoFileClip(file_name)
             audio = video.audio
             filename_header, _ = os.path.splitext(file)
