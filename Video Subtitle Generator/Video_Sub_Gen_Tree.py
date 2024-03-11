@@ -23,30 +23,33 @@ def transcribe_audio(path, File_Name, filename_header, transc_verbose=False, srt
     tqdm.write(f"Total Segments: {len(segments)}")
 
     count = len(segments)
+    try:
+        if srt_verbose == False:
+            for segment in segments:
+                startTime = str(0)+str(timedelta(seconds=int(segment['start'])))+',000'
+                endTime = str(0)+str(timedelta(seconds=int(segment['end'])))+',000'
+                text = segment['text']
+                segmentId = segment['id']+1
+                segment = f"{segmentId}\n{startTime} --> {endTime}\n{text[1:] if text[0] == ' ' else text}\n\n"
+                srtFilename = f"{File_Name}.srt"
+                with open(srtFilename, 'a', encoding='utf-8') as srtFile:
+                    srtFile.write(segment)
 
-    if srt_verbose == False:
-        for segment in segments:
-            startTime = str(0)+str(timedelta(seconds=int(segment['start'])))+',000'
-            endTime = str(0)+str(timedelta(seconds=int(segment['end'])))+',000'
-            text = segment['text']
-            segmentId = segment['id']+1
-            segment = f"{segmentId}\n{startTime} --> {endTime}\n{text[1:] if text[0] == ' ' else text}\n\n"
-            srtFilename = f"{File_Name}.srt"
-            with open(srtFilename, 'a', encoding='utf-8') as srtFile:
-                srtFile.write(segment)
-
-    elif srt_verbose == True:
-        for segment in tqdm(segments, desc="Writing to subtitle file", total=count):
-            startTime = str(0)+str(timedelta(seconds=int(segment['start'])))+',000'
-            endTime = str(0)+str(timedelta(seconds=int(segment['end'])))+',000'
-            text = segment['text']
-            segmentId = segment['id']+1
-            segment = f"{segmentId}\n{startTime} --> {endTime}\n{text[1:] if text[0] == ' ' else text}\n\n"
-            srtFilename = f"{File_Name}.srt"
-            with open(srtFilename, 'a', encoding='utf-8') as srtFile:
-                srtFile.write(segment)
-    else:
-        print("Invalid verbose value. Please set verbose to True or False.")
+        elif srt_verbose == True:
+            for segment in tqdm(segments, desc="Writing to subtitle file", total=count):
+                startTime = str(0)+str(timedelta(seconds=int(segment['start'])))+',000'
+                endTime = str(0)+str(timedelta(seconds=int(segment['end'])))+',000'
+                text = segment['text']
+                segmentId = segment['id']+1
+                segment = f"{segmentId}\n{startTime} --> {endTime}\n{text[1:] if text[0] == ' ' else text}\n\n"
+                srtFilename = f"{File_Name}.srt"
+                with open(srtFilename, 'a', encoding='utf-8') as srtFile:
+                    srtFile.write(segment)
+        else:
+            print("Invalid verbose value. Please set verbose to True or False.")
+    except Exception as e:
+        logging.error(f"Error writing to subtitle file: {str(e)}")
+        return None
 
     return srtFilename
 
@@ -76,7 +79,6 @@ for dirpath, dirnames, filenames in os.walk("./"):
                 pbar.update(1)
                 continue
 
-            video = VideoFileClip(file_name)
             audio = video.audio
             filename_header, _ = os.path.splitext(file)
             filename_head = os.path.join(dirpath, filename_header)
