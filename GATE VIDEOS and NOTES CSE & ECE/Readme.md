@@ -1,1 +1,0 @@
-Link for Gate ECE Materials [GATE ECE]
