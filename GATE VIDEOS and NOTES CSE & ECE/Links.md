@@ -1,0 +1,1 @@
+Link for Gate ECE Materials [GATE ECE](https://nerist-my.sharepoint.com/:f:/g/personal/117127_nerist_ac_in/Er_aj6iUuglPmbU0pTajAQYBGLil9Ce1s3S-bWCRPxbP6Q?e=0GHa4r)
