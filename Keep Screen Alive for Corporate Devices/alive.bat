@@ -1,0 +1,1 @@
+powershell -window minimized ./alive.ps1
