@@ -3,3 +3,4 @@ torch
 moviepy
 datetime
 openai-whisper
+numpy==1.26.4
