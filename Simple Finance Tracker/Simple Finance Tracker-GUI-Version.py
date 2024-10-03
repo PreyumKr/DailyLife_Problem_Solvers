@@ -234,9 +234,9 @@ class FinanceTrackerGUI(QMainWindow):
             net_balance = total_incomes - total_expenses
 
             report = f"<h3>Summary for {period} period:</h3>"
-            report += f"<p><b>Total Incomes:</b> ${total_incomes:.2f}</p>"
-            report += f"<p><b>Total Expenses:</b> ${total_expenses:.2f}</p>"
-            report += f"<p><b>Net Balance:</b> ${net_balance:.2f}</p>"
+            report += f"<p><b>Total Incomes:</b> ₹{total_incomes:.2f}</p>"
+            report += f"<p><b>Total Expenses:</b> ₹{total_expenses:.2f}</p>"
+            report += f"<p><b>Net Balance:</b> ₹{net_balance:.2f}</p>"
 
             self.report_display.setText(report)
             self.export_to_excel(records, period)
