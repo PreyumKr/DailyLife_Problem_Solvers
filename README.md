@@ -70,3 +70,14 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The **base** model is kept in parts *lesser than 25MB* so that it can be uploaded to github, you need to extract it using ***7zip*** or ***winrar*** to use it. Extract using the **extract here** option.
 * The subtitle generation is done locally and the video is not uploaded to any server as per my understanding.
 * **NOTE:** ***If you face any issues with the path of videos while running the tree script or the other two scripts then try moving the working folder closer to the root directory of the drive. It might solve the issue.***
+
+## Simple Finance Tracker
+
+The Simple Finance Tracker allows users to track daily expenses and incomes through an intuitive interface. 
+It provides both a command-line interface (CLI) version and a graphical user interface (GUI) version.
+
+### Features
+- Add, edit, and delete expense/income records.
+- View all expenses or incomes with a detailed breakdown.
+- Generate summary reports (daily, weekly, monthly) and export them to an Excel file.
+- Data is stored in an SQLite database.
