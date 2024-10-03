@@ -3,7 +3,8 @@ import sqlite3
 from datetime import datetime, timedelta
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                              QPushButton, QLineEdit, QLabel, QComboBox, QTableWidget, 
-                             QTableWidgetItem, QMessageBox, QTabWidget, QSizePolicy, QHeaderView)
+                             QTableWidgetItem, QMessageBox, QTabWidget, QSizePolicy, QHeaderView,
+                             QCheckBox)
 from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QFont, QIcon, QColor, QPalette, QDoubleValidator
 import openpyxl
@@ -12,7 +13,7 @@ class FinanceTrackerGUI(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Simple Finance Tracker")
-        self.setGeometry(100, 100, 800, 600)
+        self.setGeometry(100, 100, 900, 600)
         
         # Set application icon (.ico file)
         self.setWindowIcon(QIcon('icon.ico'))  # Make sure to have this icon file in your project directory
@@ -119,11 +120,12 @@ class FinanceTrackerGUI(QMainWindow):
         tab.setLayout(layout)
 
         self.records_table = QTableWidget()
-        self.records_table.setColumnCount(5)
-        self.records_table.setHorizontalHeaderLabels(["ID", "Type", "Amount", "Description", "Date"])
+        self.records_table.setColumnCount(6)  # Added one more column for checkboxes
+        self.records_table.setHorizontalHeaderLabels(["Select", "ID", "Type", "Amount", "Description", "Date"])
         self.records_table.setFont(QFont("Arial", 10))
         self.records_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
         self.records_table.verticalHeader().setVisible(False)
+        self.records_table.setEditTriggers(QTableWidget.EditTrigger.DoubleClicked | QTableWidget.EditTrigger.EditKeyPressed)
         layout.addWidget(self.records_table)
 
         button_layout = QHBoxLayout()
@@ -136,8 +138,14 @@ class FinanceTrackerGUI(QMainWindow):
         delete_button = QPushButton("🗑️ Delete Selected")
         delete_button.setFont(QFont("Arial", 10, QFont.Weight.Bold))
         delete_button.setFixedHeight(40)
-        delete_button.clicked.connect(self.delete_selected_record)
+        delete_button.clicked.connect(self.delete_selected_records)
         button_layout.addWidget(delete_button)
+
+        save_button = QPushButton("💾 Save Changes")
+        save_button.setFont(QFont("Arial", 10, QFont.Weight.Bold))
+        save_button.setFixedHeight(40)
+        save_button.clicked.connect(self.save_changes)
+        button_layout.addWidget(save_button)
 
         layout.addLayout(button_layout)
 
@@ -193,26 +201,65 @@ class FinanceTrackerGUI(QMainWindow):
 
         self.records_table.setRowCount(len(records))
         for row, record in enumerate(records):
-            for col, value in enumerate(record):
+            # Add checkbox
+            checkbox = QCheckBox()
+            self.records_table.setCellWidget(row, 0, checkbox)
+            
+            for col, value in enumerate(record, start=1):
                 item = QTableWidgetItem(str(value))
-                if col == 1:  # Type column
+                if col == 2:  # Type column
                     item.setForeground(QColor(0, 0, 0))  # Set text color to black for both expense and income
-                elif col == 2:  # Amount column
+                elif col == 3:  # Amount column
                     item = QTableWidgetItem("{:.2f}".format(float(value)))  # Format as currency
                 self.records_table.setItem(row, col, item)
 
-    def delete_selected_record(self):
-        selected_rows = self.records_table.selectionModel().selectedRows()
+    def delete_selected_records(self):
+        selected_rows = []
+        for row in range(self.records_table.rowCount()):
+            if self.records_table.cellWidget(row, 0).isChecked():
+                selected_rows.append(row)
+
         if not selected_rows:
-            QMessageBox.warning(self, "No Selection", "Please select a record to delete.")
+            QMessageBox.warning(self, "No Selection", "Please select records to delete.")
             return
 
-        record_id = self.records_table.item(selected_rows[0].row(), 0).text()
-        self.cursor.execute("DELETE FROM records WHERE id=?", (record_id,))
-        self.conn.commit()
+        reply = QMessageBox.question(self, 'Confirm Deletion', 
+                                     f"Are you sure you want to delete {len(selected_rows)} record(s)?",
+                                     QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No, 
+                                     QMessageBox.StandardButton.No)
 
-        QMessageBox.information(self, "Success", f"Record {record_id} deleted successfully!")
-        self.refresh_records()
+        if reply == QMessageBox.StandardButton.Yes:
+            for row in reversed(selected_rows):
+                record_id = self.records_table.item(row, 1).text()
+                self.cursor.execute("DELETE FROM records WHERE id=?", (record_id,))
+            self.conn.commit()
+
+            QMessageBox.information(self, "Success", f"{len(selected_rows)} record(s) deleted successfully!")
+            self.refresh_records()
+
+    def save_changes(self):
+        changes_made = False
+        for row in range(self.records_table.rowCount()):
+            record_id = int(self.records_table.item(row, 1).text())
+            record_type = self.records_table.item(row, 2).text().lower()
+            amount = float(self.records_table.item(row, 3).text())
+            description = self.records_table.item(row, 4).text()
+            date = self.records_table.item(row, 5).text()
+
+            self.cursor.execute("""
+                UPDATE records 
+                SET type=?, amount=?, description=?, date=?
+                WHERE id=?
+            """, (record_type, amount, description, date, record_id))
+            
+            if self.cursor.rowcount > 0:
+                changes_made = True
+
+        if changes_made:
+            self.conn.commit()
+            QMessageBox.information(self, "Success", "Changes saved successfully!")
+        else:
+            QMessageBox.information(self, "No Changes", "No changes were made.")
 
     def generate_report(self):
         period = self.period_combo.currentText().lower()
