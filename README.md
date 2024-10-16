@@ -46,6 +46,14 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The script is used to rename multiple files or folders inside a folder with a common name or a number appended to it.
 * The script can also be used to remove a common name from all the files or folders inside a folder.
 
+### Node Websocket For Realtime Tracking of File (Interview Question)
+
+* The server has a ***log.txt file*** and when clients connect to the server they get the last 10 lines of the file.
+* Whenever the file is updated, the updated line is also displayed to the connected clients in realtime.
+* They gave two hours and open internet for the test but since I didn't use chatgpt to debug my code at the time, My code gave glitchy outputs.
+* This is a working model which uses express and ws module of ***nodeJS***.
+* Just do `npm init -y` and `npm install express ws` on the client and server folders seperately and run the clients and server using `node index.js`.
+
 ### Search and List Remaining Files
 
 * I created this scripts to find the missing files from a site which I forgot to download due to lack of focus while scrolling.
