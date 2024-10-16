@@ -35,8 +35,15 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The No Limit code runs all parellel csv generators together which can use the entire CPU.
 * If You want to make a Single csv use the single csv. (PS: It uses single process so its going to take forever!)
 
-### Keep Screen Alive
+### csv to excel file converter
 
+* **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
+
+### image resizer
+
+* **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
+
+### Keep Screen Alive
 * **Read** the ***Readme.md*** file inside. You just need to change the scripting rights in Powershell and then run the ***.bat*** file. It will keep pressing *scroll lock* and keep your PC awake even if the *power options* doesn't listen to you.
 
 ### Multiple File Rename
