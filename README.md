@@ -48,11 +48,12 @@ Python Scripts for solving daily life problems in windows (recommended)
 
 ### Node Websocket For Realtime Tracking of File (Interview Question)
 
-* The server has a ***log.txt file*** and when clients connect to the server they get the last 10 lines of the file.
-* Whenever the file is updated, the updated line is also displayed to the connected clients in realtime.
-* They gave two hours and open internet for the test but since I didn't use chatgpt to debug my code at the time, My code gave glitchy outputs.
+* The server has a ***log.txt file*** and when clients connect to the server they get the ***last 10 lines*** of the file.
+* Whenever the file is updated, the updated line is also displayed to the connected clients in **realtime**.
+* They gave two hours and open internet for the test but since I didn't use chatgpt to debug my code at the time, My server side code gave glitchy outputs.
 * This is a working model which uses express and ws module of ***nodeJS***.
 * Just do `npm init -y` and `npm install express ws` on the client and server folders seperately and run the clients and server using `node index.js`.
+* They also asked to make the messages appear in a webpage. For this there is a ***index.html*** in the client folder which has html and the client JS code embedded inside it.
 
 ### Search and List Remaining Files
 

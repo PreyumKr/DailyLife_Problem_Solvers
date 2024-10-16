@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client View</title>
+</head>
+<body>
+    <!-- display data here -->
+    <div id="data"></div>
+    <table id="table">
+        <thead>
+            <tr>
+                <th> Log File Entries </th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script>
+        // Create WebSocket connection.
+        const socket = new WebSocket('ws://localhost:8080');
+
+        // Connection opened
+        socket.addEventListener('open', function (event) {
+            console.log('Connected to server');
+        });
+
+        // Listen for messages
+        socket.addEventListener('message', function (event) {
+            console.log('Message from server ', event.data);
+            const table_body = document.getElementById("table").getElementsByTagName("tbody")[0];
+            const newRow = table_body.insertRow();
+            const cell = newRow.insertCell(0);
+            cell.textContent = event.data;
+        });
+    </script>
+    
+</body>
+</html>
