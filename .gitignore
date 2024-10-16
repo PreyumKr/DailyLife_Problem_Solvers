@@ -1,2 +1,5 @@
 # ignore the model files
 *.pt
+
+# ignore node_modules folders
+node_modules/
