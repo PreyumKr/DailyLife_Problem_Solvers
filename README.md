@@ -35,36 +35,23 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The No Limit code runs all parellel csv generators together which can use the entire CPU.
 * If You want to make a Single csv use the single csv. (PS: It uses single process so its going to take forever!)
 
-# CSV to Excel Converter
+### CSV to Excel Converter
 
-This project provides a simple Python script that converts a CSV file into an Excel file using the `pandas` library. This is part of a collection of mini code projects designed to demonstrate various Python functionalities.
+* This project provides a simple Python script that converts a CSV file into an Excel file using the `pandas` library. This is part of a collection of mini code projects designed to demonstrate various Python functionalities.
+* The provided code snippet reads data from a specified CSV file and writes it to an Excel file, making it easy to handle and share data in a widely-used format. 
+* It converts ***CSV*** files to ***Excel*** format.
+* It utilizes the `pandas` library for efficient data handling.
+* It supports various data types typically found in CSV files.
+* For better understanding read the ***readme.md*** given inside the folder.
 
-## Overview
+### Image Resizer
 
-The provided code snippet reads data from a specified CSV file and writes it to an Excel file, making it easy to handle and share data in a widely-used format. 
-
-### Features
-
-- Converts CSV files to Excel format.
-- Utilizes the `pandas` library for efficient data handling.
-- Supports various data types typically found in CSV files.
-* **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
-
-# Image Resizer
-
-This project features a simple Python script that resizes images using the `PIL` (Pillow) library. It is part of a collection of mini code projects demonstrating various functionalities in Python.
-
-## Overview
-
-The provided code allows users to resize images to specified dimensions. This is useful for adjusting image sizes for different applications, such as web usage or personal projects.
-
-### Features
-
-- Resizes images to custom dimensions.
-- Utilizes the Pillow library for image processing.
-- Supports various image formats.
-
-* **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
+* This project features a simple Python script that resizes images using the `PIL` (Pillow) library.
+* It is part of a collection of mini code projects demonstrating various functionalities in Python.
+* The provided code allows users to resize images to specified dimensions. This is useful for adjusting image sizes for different applications, such as web usage or personal projects.
+* It resizes images to custom dimensions.
+* It supports various image formats.
+* For better understanding read the ***readme.md*** given inside the folder.
 
 ### Keep Screen Alive
 * **Read** the ***Readme.md*** file inside. You just need to change the scripting rights in Powershell and then run the ***.bat*** file. It will keep pressing *scroll lock* and keep your PC awake even if the *power options* doesn't listen to you.
