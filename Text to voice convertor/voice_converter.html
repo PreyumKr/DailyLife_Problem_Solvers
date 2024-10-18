@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+<title>labbo</title>
+
+<style>
+*{
+   margin: 0;
+   padding: 0;     
+   box-sizing: border-box;  
+  }
+body{
+  background: linear-gradient(135deg,#153677,#4e085f);
+}
+.container2{
+    background-color:bisque ;
+    border: 2px solid black;
+    width:100%;
+    height:100vh;
+    padding: 10px;
+    background: linear-gradient(135deg,#153677,#4e085f);
+}
+    .container{
+   margin:80px auto 170px;
+   display: flex;
+   background-color: bisque;
+   padding: 4vh;
+   height: 48vh;
+   width: 20rem;
+   padding-top: 5vh;
+   flex-direction: column;
+   flex-wrap: column;
+   max-width:740px ;
+   backdrop-filter:blur(50px);
+   border-radius: 20px;
+    }
+#textarea{
+   height: 37vh;
+   width:270px; 
+   margin-bottom: 8px;   
+   max-width:700px ;
+   margin-top:8px;
+   resize: none;
+   background-color:white;   }
+#row{
+   width:275px; }
+   #voice{
+   float: right;
+   height:35px;
+   position:relative;
+   border-radius: 25px;
+   border:none;
+   width:80px; 
+   background-color: rgb(215, 5, 5);
+   }
+#tyvoice{
+   width:150px;
+   height:35px;
+   border-radius: 25px;
+   border:none;
+   right: 5vh;  
+   width:180px; 
+   background-color: rgb(215, 5, 5);
+    }
+#h{
+    align-items :center;
+    padding-left:8px;
+    color:black;
+    }
+@media (min-width:768px) and (max-width:1280px) {
+    *{
+      box-sizing: unset;
+}}
+@media (min-width:1281px) and (max-width:1886px) {
+   .container{
+    padding-left: 30px;
+   } 
+}
+@media (max-width:766px) {
+   .container{
+    padding-left: 2vh;
+   } 
+}
+
+</style>
+</head>
+
+<body>
+  <div class="container2">
+<div class="container">
+  <h2 id="h">Text to Voice Converter</h2>
+  <textarea id="textarea" type="text-area"  ></textarea>
+  <div id="row">         
+     <select  id="tyvoice"></select>
+     <button value="voice" id="voice">Hear</button>
+  </div>     
+</div>
+</div>
+
+
+<script >
+let speech= new SpeechSynthesisUtterance();
+let voices = [];
+let voicesel = document.querySelector("#tyvoice");
+  window.speechSynthesis.onvoiceschanged = () =>{
+  voices = window.speechSynthesis.getVoices();
+  voicesel.innerHTML = "";
+  voices.forEach((voice,i) => {
+      let option = document.createElement('option');
+      option.value = i;
+      option.textContent = `${voice.name}(${voice.lang})`;
+      voicesel.appendChild(option);
+  });
+};
+  document.querySelector("#voice").addEventListener("click",() => {
+      speech.text = document.querySelector("#textarea").value;
+      let selectedVoice = voices[voicesel.value];
+      speech.voice = selectedVoice;
+      window.speechSynthesis.speak(speech);
+ });   
+</script>
+
+</body>
+</html>
+
