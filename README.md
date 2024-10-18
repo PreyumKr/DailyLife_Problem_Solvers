@@ -102,14 +102,9 @@ The script captures video input from your webcam, detects QR codes in real-time,
 - Uses the `OpenCV` library for video capture and the `Pyzbar` library for QR code decoding.
 - Supports various QR code formats.
 
-## Prerequisites
-
-Make sure you have the required libraries installed:
-
-```bash
-pip install opencv-python pyzbar
-
 * **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
+
+
 
 ### Search and List Remaining Files
 
