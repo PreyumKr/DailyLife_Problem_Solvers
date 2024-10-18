@@ -35,7 +35,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The No Limit code runs all parellel csv generators together which can use the entire CPU.
 * If You want to make a Single csv use the single csv. (PS: It uses single process so its going to take forever!)
 
-### CSV to Excel Converter
+# CSV to Excel Converter
 
 This project provides a simple Python script that converts a CSV file into an Excel file using the `pandas` library. This is part of a collection of mini code projects designed to demonstrate various Python functionalities.
 
@@ -43,14 +43,14 @@ This project provides a simple Python script that converts a CSV file into an Ex
 
 The provided code snippet reads data from a specified CSV file and writes it to an Excel file, making it easy to handle and share data in a widely-used format. 
 
-# Features
+### Features
 
 - Converts CSV files to Excel format.
 - Utilizes the `pandas` library for efficient data handling.
 - Supports various data types typically found in CSV files.
 * **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
 
-### Image Resizer
+# Image Resizer
 
 This project features a simple Python script that resizes images using the `PIL` (Pillow) library. It is part of a collection of mini code projects demonstrating various functionalities in Python.
 
@@ -58,7 +58,7 @@ This project features a simple Python script that resizes images using the `PIL`
 
 The provided code allows users to resize images to specified dimensions. This is useful for adjusting image sizes for different applications, such as web usage or personal projects.
 
-# Features
+### Features
 
 - Resizes images to custom dimensions.
 - Utilizes the Pillow library for image processing.
