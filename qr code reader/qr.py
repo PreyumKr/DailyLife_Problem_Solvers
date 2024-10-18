@@ -29,7 +29,7 @@ while not qr_code_detected:
         print(f"Data: {qr_data}")
 
         # Save QR code data to a text file
-        with open('qr_code_data.txt', 'a') as file:
+        with open('qr code reader\\qr_code_data.txt', 'a') as file:
             file.write( qr_data)
 
         # Mark that a QR code was successfully read
