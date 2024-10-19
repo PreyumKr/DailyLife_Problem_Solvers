@@ -1,0 +1,2 @@
+1  text in English
+2  Live server to run "html"
