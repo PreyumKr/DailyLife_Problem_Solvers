@@ -72,6 +72,20 @@ Python Scripts for solving daily life problems in windows (recommended)
 * Just do `npm init -y` and `npm install express ws` on the client and server folders seperately and run the clients and server using `node index.js`.
 * They also asked to make the messages appear in a webpage. For this there is a ***index.html*** in the client folder which has html and the client JS code embedded inside it.
 
+
+### QR Code Reader (In Real Time)
+
+* This project demonstrates a simple Python-based QR code scanner that works in real-time using a webcam. It uses the `OpenCV` and `Pyzbar` libraries to detect and decode QR codes live from a video stream and save the results to a text file.
+* Real-time QR code detection using a webcam.
+* Decodes and saves QR code data to a text file.
+* Automatically shuts down the camera after successfully reading a QR code.
+* Uses the `OpenCV` library for video capture and the `Pyzbar` library for QR code decoding.
+* Supports various QR code formats.
+
+* **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
+
+
+
 ### Search and List Remaining Files
 
 * I created this scripts to find the missing files from a site which I forgot to download due to lack of focus while scrolling.
