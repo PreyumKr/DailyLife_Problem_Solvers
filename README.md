@@ -106,7 +106,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 * It generates summary reports (daily, weekly, monthly) and export them to an Excel file.
 * Its data is stored in an SQLite database.
 
-### Text TO Voice Converter
+### Text To Voice Converter
 * This project allows users to convert text input into speech using the Web Speech API. 
 * It provides an easy-to-use interface where users can type their text, select from a variety of voices available in the browser, and listen to the spoken output. 
 * The project is built with HTML, CSS, and JavaScript, and leverages the browser's native speech synthesis capabilities. By utilizing the Web Speech API, it delivers real-time text-to-speech functionality without the need for external libraries. 
