@@ -88,14 +88,7 @@ The provided code allows users to resize images to specified dimensions. This is
 
 ### QR Code Reader (In Real Time)
 
-This project demonstrates a simple Python-based QR code scanner that works in real-time using a webcam. It uses the `OpenCV` and `Pyzbar` libraries to detect and decode QR codes live from a video stream and save the results to a text file.
-
-`Overview`
-
-The script captures video input from your webcam, detects QR codes in real-time, and prints the decoded data to the console. After successfully detecting a QR code, the data is appended to a text file and the camera closes automatically.
-
-`Features`
-
+- This project demonstrates a simple Python-based QR code scanner that works in real-time using a webcam. It uses the `OpenCV` and `Pyzbar` libraries to detect and decode QR codes live from a video stream and save the results to a text file.
 - Real-time QR code detection using a webcam.
 - Decodes and saves QR code data to a text file.
 - Automatically shuts down the camera after successfully reading a QR code.
