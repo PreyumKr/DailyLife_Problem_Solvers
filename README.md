@@ -72,12 +72,39 @@ Python Scripts for solving daily life problems in windows (recommended)
 * Just do `npm init -y` and `npm install express ws` on the client and server folders seperately and run the clients and server using `node index.js`.
 * They also asked to make the messages appear in a webpage. For this there is a ***index.html*** in the client folder which has html and the client JS code embedded inside it.
 
+### QR Code Reader (In Real Time)
+
+* This project demonstrates a simple Python-based QR code scanner that works in real-time using a webcam. It uses the `OpenCV` and `Pyzbar` libraries to detect and decode QR codes live from a video stream and save the results to a text file.
+* Real-time QR code detection using a webcam.
+* Decodes and saves QR code data to a text file.
+* Automatically shuts down the camera after successfully reading a QR code.
+* Uses the `OpenCV` library for video capture and the `Pyzbar` library for QR code decoding.
+* Supports various QR code formats.
+* **Read** the ***readme.md*** given inside the folder and try it out ! ***:-)***
+
 ### Search and List Remaining Files
 
 * I created this scripts to find the missing files from a site which I forgot to download due to lack of focus while scrolling.
 * I created a list of files I have downloaded and a list of all the files there in the site after some pre-processing.
 * Then it was a cake walk to check if the main list file's name was in the downloaded file's list.
 * The files not present were printed as a list in the python console.
+
+### Simple Finance Tracker
+
+* Read the Readme.md file inside the directory.
+* The Simple Finance Tracker allows users to track daily expenses and incomes through an intuitive interface.
+* It provides both a command-line interface (CLI) version and a graphical user interface (GUI) version.
+* It can Add, edit, and delete expense/income records.
+* One can View all expenses or incomes with a detailed breakdown.
+* It generates summary reports (daily, weekly, monthly) and export them to an Excel file.
+* Its data is stored in an SQLite database.
+
+### Text to Voice Converter
+
+* This project allows users to convert text input into speech using the Web Speech API. 
+* It provides an easy-to-use interface where users can type their text, select from a variety of voices available in the browser, and listen to the spoken output. 
+* The project is built with HTML, CSS, and JavaScript, and leverages the browser's native speech synthesis capabilities. By utilizing the Web Speech API, it delivers real-time text-to-speech functionality without the need for external libraries. 
+* This tool is useful for enhancing accessibility, especially for individuals with reading disabilities or those who prefer auditory content. Additionally, it demonstrates how native browser features can be harnessed to provide useful applications.
 
 ### Video Subtitle Generator (English)
 
@@ -95,7 +122,6 @@ Python Scripts for solving daily life problems in windows (recommended)
 * In any case, I have added the **base** model in the **models** folder for you to use it directly without using gb's of your data for the bigger models.
 * The **base** model is kept in parts *lesser than 25MB* so that it can be uploaded to github, you need to extract it using ***7zip*** or ***winrar*** to use it. Extract using the **extract here** option.
 * The subtitle generation is done locally and the video is not uploaded to any server as per my understanding.
-* **NOTE:** ***If you face any issues with the path of videos while running the tree script or the other two scripts then try moving the working folder closer to the root directory of the drive. It might solve the issue.***
 
 ### Simple Finance Tracker
 * Read the Readme.md file inside the directory.
@@ -118,3 +144,4 @@ Python Scripts for solving daily life problems in windows (recommended)
 * With a responsive and user-friendly interface, users can enter their desired text or URL, click "Generate QR Code" and instantly view the QR code output.
 * Built using HTML, CSS, and JavaScript, this app leverages JavaScript to interact with the API and retrieve the QR code image, which is then displayed within the interface.
 * This tool provides a quick way to create QR codes for links, text, or other content, making it ideal for generating shareable codes on the go.
+
