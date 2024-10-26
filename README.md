@@ -111,3 +111,10 @@ Python Scripts for solving daily life problems in windows (recommended)
 * It provides an easy-to-use interface where users can type their text, select from a variety of voices available in the browser, and listen to the spoken output. 
 * The project is built with HTML, CSS, and JavaScript, and leverages the browser's native speech synthesis capabilities. By utilizing the Web Speech API, it delivers real-time text-to-speech functionality without the need for external libraries. 
 * This tool is useful for enhancing accessibility, especially for individuals with reading disabilities or those who prefer auditory content. Additionally, it demonstrates how native browser features can be harnessed to provide useful applications.
+
+
+### Qr Code Generator
+* This project allows users to create QR codes from any text or URL input using a QR code generation API. Users simply type their desired content and generate the QR code with a single click.
+* With a responsive and user-friendly interface, users can enter their desired text or URL, click "Generate QR Code" and instantly view the QR code output.
+* Built using HTML, CSS, and JavaScript, this app leverages JavaScript to interact with the API and retrieve the QR code image, which is then displayed within the interface.
+* This tool provides a quick way to create QR codes for links, text, or other content, making it ideal for generating shareable codes on the go.
