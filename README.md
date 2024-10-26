@@ -72,6 +72,14 @@ Python Scripts for solving daily life problems in windows (recommended)
 * Just do `npm init -y` and `npm install express ws` on the client and server folders seperately and run the clients and server using `node index.js`.
 * They also asked to make the messages appear in a webpage. For this there is a ***index.html*** in the client folder which has html and the client JS code embedded inside it.
 
+### Qr Code Generator
+
+* This project allows users to create QR codes from any text or URL input using a QR code generation API. Users simply type their desired content and generate the QR code with a single click.
+* With a responsive and user-friendly interface, users can enter their desired text or URL, click "Generate QR Code" and instantly view the QR code output.
+* Built using HTML, CSS, and JavaScript, this app leverages JavaScript to interact with the API and retrieve the QR code image, which is then displayed within the interface.
+* This tool provides a quick way to create QR codes for links, text, or other content, making it ideal for generating shareable codes on the go.
+
+
 ### QR Code Reader (In Real Time)
 
 * This project demonstrates a simple Python-based QR code scanner that works in real-time using a webcam. It uses the `OpenCV` and `Pyzbar` libraries to detect and decode QR codes live from a video stream and save the results to a text file.
@@ -123,25 +131,6 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The **base** model is kept in parts *lesser than 25MB* so that it can be uploaded to github, you need to extract it using ***7zip*** or ***winrar*** to use it. Extract using the **extract here** option.
 * The subtitle generation is done locally and the video is not uploaded to any server as per my understanding.
 
-### Simple Finance Tracker
-* Read the Readme.md file inside the directory.
-* The Simple Finance Tracker allows users to track daily expenses and incomes through an intuitive interface.
-* It provides both a command-line interface (CLI) version and a graphical user interface (GUI) version.
-* It can Add, edit, and delete expense/income records.
-* One can View all expenses or incomes with a detailed breakdown.
-* It generates summary reports (daily, weekly, monthly) and export them to an Excel file.
-* Its data is stored in an SQLite database.
-
-### Text To Voice Converter
-* This project allows users to convert text input into speech using the Web Speech API. 
-* It provides an easy-to-use interface where users can type their text, select from a variety of voices available in the browser, and listen to the spoken output. 
-* The project is built with HTML, CSS, and JavaScript, and leverages the browser's native speech synthesis capabilities. By utilizing the Web Speech API, it delivers real-time text-to-speech functionality without the need for external libraries. 
-* This tool is useful for enhancing accessibility, especially for individuals with reading disabilities or those who prefer auditory content. Additionally, it demonstrates how native browser features can be harnessed to provide useful applications.
 
 
-### Qr Code Generator
-* This project allows users to create QR codes from any text or URL input using a QR code generation API. Users simply type their desired content and generate the QR code with a single click.
-* With a responsive and user-friendly interface, users can enter their desired text or URL, click "Generate QR Code" and instantly view the QR code output.
-* Built using HTML, CSS, and JavaScript, this app leverages JavaScript to interact with the API and retrieve the QR code image, which is then displayed within the interface.
-* This tool provides a quick way to create QR codes for links, text, or other content, making it ideal for generating shareable codes on the go.
 
