@@ -19,4 +19,4 @@ How it Works:-
 How To Use:-
    1) Enter your specified text in "Enter Your text".
    2) click on  "Generate QR Code".
-   #) Your Qr Code is displayed ,use it as per your requirement.
+   #) Your Qr Code is displayed ,use it as per your requirement
