@@ -72,7 +72,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 * Just do `npm init -y` and `npm install express ws` on the client and server folders seperately and run the clients and server using `node index.js`.
 * They also asked to make the messages appear in a webpage. For this there is a ***index.html*** in the client folder which has html and the client JS code embedded inside it.
 
-### Qr Code Generator
+### QR Code Generator
 
 * This project allows users to create QR codes from any text or URL input using a QR code generation API. Users simply type their desired content and generate the QR code with a single click.
 * With a responsive and user-friendly interface, users can enter their desired text or URL, click "Generate QR Code" and instantly view the QR code output.
@@ -130,6 +130,7 @@ Python Scripts for solving daily life problems in windows (recommended)
 * In any case, I have added the **base** model in the **models** folder for you to use it directly without using gb's of your data for the bigger models.
 * The **base** model is kept in parts *lesser than 25MB* so that it can be uploaded to github, you need to extract it using ***7zip*** or ***winrar*** to use it. Extract using the **extract here** option.
 * The subtitle generation is done locally and the video is not uploaded to any server as per my understanding.
+* **NOTE:** ***If you face any issues with the path of videos while running the tree script or the other two scripts then try moving the working folder closer to the root directory of the drive. It might solve the issue.***
 
 
 
