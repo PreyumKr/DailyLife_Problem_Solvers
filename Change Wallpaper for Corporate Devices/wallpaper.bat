@@ -1,0 +1,1 @@
+py "./changewall.py" "./Wallpaper.jpg"
