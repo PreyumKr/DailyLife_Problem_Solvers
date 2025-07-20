@@ -8,6 +8,15 @@ Python Scripts for solving daily life problems in windows (recommended)
 * **Read** the ***code comments*** and make ***changes*** which meets your requirements.
 * You can choose between ***copy*** and ***rename*** function according to what you want to happen to your original file with no extension.
 
+### Checkpoint VPN Scripts
+
+* Its a set of scripts to connect and disconnect from the Checkpoint VPN. (I used it for IIT Gandhinagar Campus VPN)
+* Replace the ***Path\To\Your\VPN\GUI\Service.exe*** and ***Path\To\Your\VPN\CLI\trac.exe*** with the actual path of your VPN GUI service and CLI trac executable.
+* Replace the ***<ServerName>***, ***<UserName>*** and ***<Password>*** with the actual server name, username and password of your VPN.
+* The ***vpn_connect.bat*** script is used to connect to the VPN.
+* The ***vpn_disconnect.bat*** script is used to disconnect from the VPN.
+* You can automate the scripts to bypass the login timeout hardcoded in the VPN Connection and the scripts are also helpful to connect with saved credentials, as in my case the VPN connection did not allow to save the credentials in the GUI service and I had to enter them every time I connected to the VPN.
+
 ### Clean Files from Sub-Directories of a Folder
 
 * **Read** the ***code comments*** and make ***changes*** which meets your requirements.
