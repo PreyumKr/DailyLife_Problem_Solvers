@@ -34,7 +34,7 @@ def copy_collection(source_collection, target_collection):
     
     return len(documents)
 
-def rename_database(source_db_name, target_db_name, drop_source=False):
+def rename_database(source_db_name, target_db_name, drop_source=True):
     """
     Rename a MongoDB database by copying all collections to a new database.
     Uses a temporary database as mediator if case-insensitive conflict exists.
