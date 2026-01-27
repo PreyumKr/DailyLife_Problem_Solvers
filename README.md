@@ -72,6 +72,18 @@ Python Scripts for solving daily life problems in windows (recommended)
 * The script is used to rename multiple files or folders inside a folder with a common name or a number appended to it.
 * The script can also be used to remove a common name from all the files or folders inside a folder.
 
+### MongoDB Helper Scripts
+
+* This script provides a utility to rename MongoDB databases by copying all collections to a new database.
+* It uses the `pymongo` library to interact with MongoDB servers.
+* The script handles case-insensitive rename conflicts (e.g., renaming "myDB" to "MyDB") by using a temporary database as a mediator to avoid MongoDB's case conflict issues.
+* It preserves all collection data and indexes during the rename process.
+* You can configure the MongoDB connection details (host, port) and database names (source and target) at the top of the script or pass them as command-line arguments.
+* The script supports an optional `--drop-source` flag to automatically drop the source database after successful copying.
+* Usage: `python Rename_MongoDBName.py [source_db] [target_db] [--drop-source]`
+* Install required dependencies using: `pip install -r requirements.txt`
+* The script provides detailed progress output with visual indicators (✓, ✗, ⚠) for each operation step.
+
 ### Node Websocket For Realtime Tracking of File (Interview Question)
 
 * The server has a ***log.txt file*** and when clients connect to the server they get the ***last 10 lines*** of the file.
