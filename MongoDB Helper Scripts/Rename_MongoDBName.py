@@ -7,8 +7,8 @@ MONGO_HOST = "10.0.138.165"
 MONGO_PORT = 27017
 
 # Database names
-SOURCE_DB = "India_Patent_Lens"  
-TARGET_DB = "Patent_Lens_India"  
+SOURCE_DB = "Israel_Patents_Lens"  
+TARGET_DB = "Patent_Lens_Israel"  
 
 def copy_collection(source_collection, target_collection):
     """Helper function to copy a single collection with its data and indexes."""
@@ -131,13 +131,11 @@ def rename_database(source_db_name, target_db_name, drop_source=True):
         
         # Drop source database if requested
         if drop_source:
-            response = input(f"\n⚠ Drop source database '{source_db_name}'? (yes/no): ")
-            if response.lower() == 'yes':
-                client.drop_database(source_db_name)
-                print(f"✓ Dropped source database '{source_db_name}'")
-            else:
-                print(f"Source database '{source_db_name}' kept intact")
-        
+            client.drop_database(source_db_name)
+            print(f"✓ Dropped source database '{source_db_name}'")
+        else:
+            print(f"Source database '{source_db_name}' kept intact")
+    
         return True
         
     except ConnectionFailure:
