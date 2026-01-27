@@ -1,14 +1,14 @@
-import sys
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
+import sys
 
 # MongoDB connection details
-MONGO_HOST = "HostIP"
+MONGO_HOST = "10.0.138.165"
 MONGO_PORT = 27017
 
 # Database names
-SOURCE_DB = "SourceDBName"  
-TARGET_DB = "TargetDBName"  
+SOURCE_DB = "India_Patent_Lens"  
+TARGET_DB = "Patent_Lens_India"  
 
 def copy_collection(source_collection, target_collection):
     """Helper function to copy a single collection with its data and indexes."""
@@ -169,7 +169,7 @@ if __name__ == "__main__":
     else:
         source = SOURCE_DB
         target = TARGET_DB
-        drop = False
+        drop = True
     
     print(f"\nSource Database: {source}")
     print(f"Target Database: {target}")
